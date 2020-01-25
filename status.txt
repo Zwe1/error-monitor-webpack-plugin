@@ -1,0 +1,72 @@
+Hash: 761e1260a0b8020503ab
+Version: webpack 4.41.2
+Time: 3376ms
+Built at: 2020-01-24 21:38:34
+                                                Asset       Size  Chunks                         Chunk Names
+                                  asset-manifest.json   1.07 KiB          [emitted]              
+                                           index.html   2.17 KiB          [emitted]              
+precache-manifest.66acaf0b08851f103ff3bdb0f1055eb2.js  759 bytes          [emitted]              
+                                    service-worker.js   1.16 KiB          [emitted]              
+                   static/css/main.30cf2702.chunk.css   1.26 KiB       0  [emitted] [immutable]  main
+               static/css/main.30cf2702.chunk.css.map   2.01 KiB          [emitted]              
+                        static/js/2.ac6470f2.chunk.js    182 KiB       2  [emitted] [immutable]  
+                static/js/2.ac6470f2.chunk.js.LICENSE   1.01 KiB          [emitted]              
+                    static/js/2.ac6470f2.chunk.js.map    492 KiB       2  [emitted] [dev]        
+                     static/js/main.36ef0633.chunk.js   15.9 KiB       0  [emitted] [immutable]  main
+                 static/js/main.36ef0633.chunk.js.map   26.3 KiB       0  [emitted] [dev]        main
+                   static/js/runtime-main.0a0c5500.js   1.53 KiB       1  [emitted] [immutable]  runtime-main
+               static/js/runtime-main.0a0c5500.js.map   8.09 KiB       1  [emitted] [dev]        runtime-main
+                       static/media/logo.5d5d9eef.svg   2.61 KiB          [emitted]              
+Entrypoint main = static/js/runtime-main.0a0c5500.js static/js/runtime-main.0a0c5500.js.map static/js/2.ac6470f2.chunk.js static/js/2.ac6470f2.chunk.js.map static/css/main.30cf2702.chunk.css static/js/main.36ef0633.chunk.js static/js/main.36ef0633.chunk.js.map
+ [0] ./node_modules/react/index.js 189 bytes {2} [built]
+ [4] ./node_modules/@babel/runtime/regenerator/index.js 49 bytes {2} [built]
+[16] ./node_modules/react-dom/index.js 1.32 KiB {2} [built]
+[22] ./src/logo.svg 76 bytes {0} [built]
+[23] ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js 176 bytes {2} [built]
+[24] ./node_modules/@babel/runtime/helpers/esm/createClass.js 579 bytes {2} [built]
+[25] ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js 230 bytes {2} [built]
+[26] ./src/imgs/empty.png 11.7 KiB {0} [built]
+[27] ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js + 3 modules 1.09 KiB {2} [built]
+     | ./node_modules/@babel/runtime/helpers/esm/slicedToArray.js 288 bytes [built]
+     | ./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js 86 bytes [built]
+     | ./node_modules/@babel/runtime/helpers/esm/iterableToArrayLimit.js 621 bytes [built]
+     | ./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js 125 bytes [built]
+[28] ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js + 2 modules 1.24 KiB {2} [built]
+     | ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js 311 bytes [built]
+     | ./node_modules/@babel/runtime/helpers/esm/typeof.js 771 bytes [built]
+     | ./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js 192 bytes [built]
+[29] ./node_modules/@babel/runtime/helpers/esm/objectSpread2.js + 1 modules 1.28 KiB {2} [built]
+     | ./node_modules/@babel/runtime/helpers/esm/objectSpread2.js 1.02 KiB [built]
+     | ./node_modules/@babel/runtime/helpers/esm/defineProperty.js 269 bytes [built]
+[30] ./node_modules/@babel/runtime/helpers/esm/inherits.js + 1 modules 687 bytes {2} [built]
+     | ./node_modules/@babel/runtime/helpers/esm/inherits.js 487 bytes [built]
+     | ./node_modules/@babel/runtime/helpers/esm/setPrototypeOf.js 200 bytes [built]
+[32] multi ./src/index.js 28 bytes {0} [built]
+[37] ./src/index.css 39 bytes {0} [built]
+[58] ./src/index.js + 7 modules 11.3 KiB {0} [built]
+     | ./src/index.js 548 bytes [built]
+     | ./src/App.js 1.17 KiB [built]
+     | ./src/serviceWorker.js 3.94 KiB [built]
+     | ./src/components/ErrorBoundary/index.js 2.96 KiB [built]
+     | ./src/http/index.js 499 bytes [built]
+     | ./src/components/ErrorContent/index.js 1.07 KiB [built]
+     | ./src/components/ErrorBoundary/processErrorInfo.js 615 bytes [built]
+     | ./src/components/ErrorContent/styles.js 516 bytes [built]
+    + 47 hidden modules
+Child HtmlWebpackCompiler:
+                          Asset     Size  Chunks  Chunk Names
+    __child-HtmlWebpackPlugin_0  535 KiB       0  HtmlWebpackPlugin_0
+    Entrypoint HtmlWebpackPlugin_0 = __child-HtmlWebpackPlugin_0
+    [0] ./node_modules/html-webpack-plugin/lib/loader.js!./public/index.html 1.91 KiB {0} [built]
+    [1] ./node_modules/lodash/lodash.js 528 KiB {0} [built]
+    [2] (webpack)/buildin/global.js 475 bytes {0} [built]
+    [3] (webpack)/buildin/module.js 552 bytes {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!node_modules/postcss-loader/src/index.js??postcss!src/App.css:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/App.css 2.17 KiB {0} [built]
+    [1] ./node_modules/css-loader/dist/runtime/api.js 2.61 KiB {0} [built]
+Child mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!node_modules/postcss-loader/src/index.js??postcss!src/index.css:
+    Entrypoint mini-css-extract-plugin = *
+    [0] ./node_modules/css-loader/dist/runtime/api.js 2.61 KiB {0} [built]
+    [1] ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/index.css 1.3 KiB {0} [built]
+    [2] ./node_modules/css-loader/dist/cjs.js??ref--6-oneOf-3-1!./node_modules/postcss-loader/src??postcss!./src/styles/error-boundary.css 1.03 KiB {0} [built]
