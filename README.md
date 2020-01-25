@@ -2,7 +2,7 @@
 
 ## 说明
 
-为 error-monitor 系统在 webpack 打包环境下量身订制的 Plugin。用于处理 source-map 文件上传到后端服务器，以便对 web 错误进行源码解析。
+为 error-monitor 系统在 webpack 打包环境下量身订制的 Plugin。用于处理 source-map 文件上传到[后端服务器](https://github.com/Zwe1/error-monitor-node-server)，以便对 [web](https://github.com/Zwe1/error-monitor-frontend) 错误进行源码解析。
 
 ## 架构
 
